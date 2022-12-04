@@ -7,3 +7,5 @@
 
 2. Run this test using the following command
    (`yarn wdio`)
+
+Main Assignment Link: https://github.com/Nikolsonn/TA-Bootcamp-E2E
