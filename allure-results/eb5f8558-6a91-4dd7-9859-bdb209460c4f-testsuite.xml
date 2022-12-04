@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670087083381' stop='1670087083389'>
+    <name>newegg search bar and internet shop logo: Internet shop logo button</name>
+    <title>newegg search bar and internet shop logo: Internet shop logo button</title>
+    <test-cases>
+        <test-case start='1670087083381' status='passed' stop='1670087083382'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670087083382' status='broken' stop='1670087083389'>
+            <name>Given a user can access the newegg website and the promo bar appears</name>
+            <title>Given a user can access the newegg website and the promo bar appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps>
+                <step start='1670087083382' status='broken' stop='1670087083389'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e765d24a-8933-499e-86c2-72098b529913-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: function uses multiple asynchronous interfaces: callback and promise</message>
+                <stack-trace>Error: function uses multiple asynchronous interfaces: callback and promise
+                to use the callback interface: do not return a promise
+                to use the promise interface: remove the last argument to the function
+                    at Object.run (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/user_code_runner.js:35:24)
+                    at Object.run (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/runtime/step_runner.js:52:59)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async TestCaseRunner.invokeStep (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:237:26)
+                    at async /Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:163:48
+                    at async TestCaseRunner.aroundTestStep (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:117:32)
+                    at async TestCaseRunner.run (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:146:17)
+                    at async Runtime.runTestCase (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/runtime/index.js:41:24)
+                    at async Runtime.start (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/node_modules/@cucumber/cucumber/lib/runtime/index.js:65:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670087083389' status='pending' stop='1670087083389'>
+            <name>Given the user clicks on "Today's Best Deals" button</name>
+            <title>Given the user clicks on "Today's Best Deals" button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670087083389' status='pending' stop='1670087083389'>
+            <name>When the user clicks on "Internet Shop" logo</name>
+            <title>When the user clicks on "Internet Shop" logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670087083389' status='pending' stop='1670087083389'>
+            <name>Then the user should be redirected to the main page</name>
+            <title>Then the user should be redirected to the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670087083389' status='passed' stop='1670087083389'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

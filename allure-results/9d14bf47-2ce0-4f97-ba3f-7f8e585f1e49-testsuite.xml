@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670087495065' stop='1670087499841'>
+    <name>newegg search bar and internet shop logo: Search bar</name>
+    <title>newegg search bar and internet shop logo: Search bar</title>
+    <test-cases>
+        <test-case start='1670087495066' status='passed' stop='1670087495067'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670087495067' status='passed' stop='1670087499827'>
+            <name>Given a user can access the newegg website</name>
+            <title>Given a user can access the newegg website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps>
+                <step start='1670087495068' status='passed' stop='1670087499826'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ee519a6b-e7f1-4182-ae4b-f61be76373dc-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670087499827' status='broken' stop='1670087499840'>
+            <name>When the user enters windows</name>
+            <title>When the user enters windows</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps>
+                <step start='1670087499828' status='passed' stop='1670087499837'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='116da0e5-ffdc-4b09-b43a-e3b7b2758735-attachment.json' type='application/json' size='246'/>
+                        <attachment title='Response' source='da9672cf-2a69-4b32-a6e6-a8f09fad78b5-attachment.json' type='application/json' size='1882'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: searchBarSelector.toClick is not a function</message>
+                <stack-trace>TypeError: searchBarSelector.toClick is not a function
+                    at World.&lt;anonymous> (/Users/atul/Desktop/E2E-Test-Automation-WebdriverIO/features/step-definitions/steps.js:15:29)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670087499840' status='pending' stop='1670087499840'>
+            <name>Then one item appears</name>
+            <title>Then one item appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670087499840' status='passed' stop='1670087499840'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.94'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
